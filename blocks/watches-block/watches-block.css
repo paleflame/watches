@@ -1,0 +1,30 @@
+.watches-block__image {
+  display: block;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+  padding: 110px 60px;
+  max-width: 400px;
+}
+@media (max-width: 600px) {
+  .watches-block__image {
+    max-width: 100%;
+    padding: 55px 30px;
+  }
+}
+
+.watches-block {
+  margin: 80px auto 0 auto;
+  color: #161515;
+}
+
+.watches-block__watchesName {
+  margin-top: 67px;
+  font-weight: 400;
+}
+
+.watches-block__description {
+  margin-top: 16px;
+  line-height: 155%;
+}
+
+/*# sourceMappingURL=watches-block.css.map */

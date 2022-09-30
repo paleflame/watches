@@ -1,0 +1,202 @@
+@import "nullstyles.css";
+@import "fonts.css";
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.container_small {
+  max-width: 542px;
+}
+
+.heading {
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text {
+  font-family: "League Spartan", sans-serif;
+  color: #161515;
+  font-size: 32px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 68px;
+}
+@media (max-width: 800px) {
+  .header__container {
+    display: block;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.header__heading {
+  margin-top: 53px;
+  font-size: 250px;
+}
+@media (max-width: 1200px) {
+  .header__heading {
+    font-size: 20vw;
+  }
+}
+@media (max-width: 800px) {
+  .header__heading {
+    font-size: 30vw;
+  }
+}
+
+.header__img-wrapper {
+  max-width: 491px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .header__img-wrapper {
+    max-width: 100%;
+    max-height: 60vw;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header__img-wrapper_desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .header__img-wrapper_mobile {
+    display: none;
+  }
+}
+
+.header {
+  background-color: #F8F8F8;
+  padding: 0 0 168px 0;
+}
+
+.header__text-info {
+  flex: 0 1 626px;
+  padding: 104px 0 0 0;
+}
+
+.header__caption {
+  font-size: 24px;
+  margin-top: 82px;
+}
+
+.header__text {
+  line-height: 155%;
+  margin-top: 30px;
+}
+
+.header__img {
+  max-width: 100%;
+}
+@media (max-width: 800px) {
+  .header__img {
+    transform: rotate(90deg);
+    max-width: 70%;
+  }
+}
+
+.buy {
+  display: flex;
+  height: 82px;
+  margin-top: 61px;
+}
+.buy > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy__link {
+  flex: 0 1 278px;
+  background: #161515;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.buy__price {
+  flex: 0 1 143px;
+  background: #FFFFFF;
+  color: #272727;
+}
+
+.watches-models {
+  padding: 43px 0 65px 0;
+  text-align: center;
+}
+
+.watches-models__caption {
+  font-size: 24px;
+  color: #000000;
+}
+
+.watches-models__heading {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 72px;
+}
+
+.watches-block__image {
+  display: block;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+  padding: 110px 60px;
+  max-width: 400px;
+}
+@media (max-width: 600px) {
+  .watches-block__image {
+    max-width: 100%;
+    padding: 55px 30px;
+  }
+}
+
+.watches-block {
+  margin: 80px auto 0 auto;
+  color: #161515;
+}
+
+.watches-block__watchesName {
+  margin-top: 67px;
+  font-weight: 400;
+}
+
+.watches-block__description {
+  margin-top: 16px;
+  line-height: 155%;
+}
+
+.footer {
+  padding: 65px 0 142px 0;
+  text-align: center;
+}
+
+.footer__divider {
+  width: 178px;
+  margin: 9px auto 0 auto;
+}
+
+.footer__text {
+  font-size: 24px;
+  line-height: 170%;
+  margin: 50px 0 0 0;
+}
+
+.link {
+  text-decoration-line: underline;
+  color: #BB8B5D;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */

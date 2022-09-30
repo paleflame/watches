@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "League Spartan";
+    src: url("../static/fonts/LeagueSpartan-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "League Spartan";
+    src: url("../static/fonts/LeagueSpartan-Regular.ttf");
+    font-weight: 400;
+}

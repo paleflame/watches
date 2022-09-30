@@ -1,0 +1,15 @@
+.watchesModels {
+  padding: 43px 0 65px 0;
+  text-align: center;
+}
+.watchesModels .watchesModels__caption {
+  font-size: 24px;
+  color: #000000;
+}
+.watchesModels .watchesModels__heading {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 72px;
+}
+
+/*# sourceMappingURL=watches-models.css.map */

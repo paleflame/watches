@@ -1,0 +1,10 @@
+.header__heading {
+  margin-top: 53px;
+  font-size: 250px;
+  @media (max-width: 1200px) {
+    font-size: 20vw;
+  }
+  @media (max-width: 800px) {
+    font-size: 30vw;
+  }
+}

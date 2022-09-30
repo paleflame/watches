@@ -1,0 +1,11 @@
+.watches-block__image {
+  display: block;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+  padding: 110px 60px;
+  max-width: 400px;
+  @media (max-width: 600px) {
+    max-width: 100%;
+    padding: 55px 30px;
+  }
+}

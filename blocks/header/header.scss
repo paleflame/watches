@@ -1,0 +1,35 @@
+@import "__container/__container";
+@import "__heading/__heading";
+@import "__img-wrapper/__img-wrapper";
+
+.header {
+  background-color: #F8F8F8;
+  padding: 0 0 168px 0;
+}
+
+.header__text-info {
+  flex: 0 1 626px;
+  padding: 104px 0 0 0;
+}
+
+.header__caption {
+  font-size: 24px;
+  margin-top: 82px;
+}
+
+.header__text {
+  line-height: 155%;
+  margin-top: 30px;
+}
+
+
+
+.header__img {
+  max-width: 100%;
+
+  @media (max-width: 800px) {
+    transform: rotate(90deg);
+    max-width: 70%;
+  }
+}
+

@@ -1,0 +1,17 @@
+.footer {
+  padding: 65px 0 142px 0;
+  text-align: center;
+}
+
+.footer__divider {
+  width: 178px;
+  margin: 9px auto 0 auto;
+}
+
+.footer__text {
+  font-size: 24px;
+  line-height: 170%;
+  margin: 50px 0 0 0;
+}
+
+/*# sourceMappingURL=footer.css.map */
